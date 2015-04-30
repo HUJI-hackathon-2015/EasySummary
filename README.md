@@ -1,3 +1,3 @@
 # EasySummary
 EasySummary final project
-dd
+by Michael Frenkel and Lior Bar
