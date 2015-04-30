@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <item name="primary" type="color">#1E9BDD</item>
+    <item name="primary_dark" type="color">#0288D1</item>
+    <item name="accent" type="color">#B3E5FC</item>
+    <item name="greenBtn" type="color">#4CAF50</item>
+    <item name="welcomeCircle" type="color">#7CC9DD</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="targetColor" type="color">#8000BCD4</item>
+    <item name="primaryTransparent" type="color">#FF1E9BDD</item>
+    <item name="primaryTransparentActionBar" type="color">#801E9BDD</item>
+    <item name="greenBtnTransparent" type="color">#FF4CAF50</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/primary</item>
+        <item>@color/primary_dark</item>
+        <item>@color/accent</item>
+        <item>@color/greenBtn</item>
+        <item>@color/welcomeCircle</item>
+        <item>@color/white</item>
+    </integer-array>
+ 
+</resources>

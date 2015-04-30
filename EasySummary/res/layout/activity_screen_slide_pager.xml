@@ -1,0 +1,45 @@
+<!-- activity_screen_slide.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/primary"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res/mike.huji">
+    
+	<android.support.v4.view.ViewPager
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1" />
+
+	
+	<RelativeLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+	
+		<com.viewpagerindicator.CirclePageIndicator
+		    android:id="@+id/circles"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:padding="20dip"
+		    app:radius="10dp"
+		    app:fillColor="@color/welcomeCircle"
+		    app:strokeColor="@color/welcomeCircle" />
+
+		<Button
+			android:id="@+id/ok_btn"
+			android:text="@string/ok_button"
+			android:textColor="@color/white"
+			android:textSize="30sp"
+			android:fontFamily="sans-serif-light"
+			android:layout_width="90dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentEnd="true"
+			android:layout_marginBottom="5dp"
+			android:layout_marginEnd="10dp"
+			android:gravity="center"		    
+			android:background="@drawable/ok_button" />	
+	</RelativeLayout>
+	
+</LinearLayout>

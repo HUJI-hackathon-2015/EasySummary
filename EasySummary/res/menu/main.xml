@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mike.huji.MainActivity" >  
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings">
+        <menu>
+			<item
+	            android:id="@+id/show_welcome"
+	            android:title="@string/action_show_welcome" />
+	        <item
+	            android:id="@+id/terms"
+	            android:title="@string/action_terms" />
+	       	<item
+	            android:id="@+id/legal_notice"
+	            android:title="@string/action_legal_notice" />
+	       	<item
+	            android:id="@+id/privacy_policy"
+	            android:title="@string/action_privacy_policy" />
+		</menu>   		
+	</item>
+
+</menu>
